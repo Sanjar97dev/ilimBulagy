@@ -1,0 +1,179 @@
+/* Prayer.css */
+.prayer-container {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:nth-child(even) {
+    background-color: #e0f2f1;
+  }
+  
+  li span {
+    font-weight: bold;
+    color: #004d40;
+  }
+  
+  @media (max-width: 600px) {
+    .prayer-container {
+      width: 93%;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  
+    li {
+      font-size: 1em;
+      padding: 10px;
+    }
+
+    body {
+      padding: 10px;
+      height: auto;
+    }
+  
+    .prayer-container {
+      padding: 15px;
+    }
+  
+    .time {
+      font-size: 36px;
+      padding: 10px 20px;
+      margin-bottom: 15px;
+    }
+  
+    .prayer-item {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+    }
+  
+    .prayer-label {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  
+    .prayer-time {
+      font-size: 16px;
+    }
+  
+    .time-until {
+      font-size: 12px;
+    }
+  }
+  
+
+  
+  .prayer-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .time {
+    font-size: 48px;
+    font-weight: bold;
+    color: #444;
+    background: #e0f7fa;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .prayer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .prayer-item {
+    background: #f0f0f0;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .prayer-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .prayer-label {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .prayer-time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b;
+  }
+  
+  .time-until {
+    font-size: 14px;
+    color: #888;
+  }
+  
+
+  
