@@ -48,7 +48,7 @@ const Navbar = ({ setMenuOpen, menuOpen }) => {
           <NavLink onClick={() => setMenuOpen(false)} to="/register">Катталуу</NavLink>
         </li>
         <li>
-          <NavLink onClick={() => setMenuOpen(false)} to="/nakyl">Катталуу</NavLink>
+          <NavLink onClick={() => setMenuOpen(false)} to="/login">Кирүү</NavLink>
         </li>
       </ul>
     </nav>
